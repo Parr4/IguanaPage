@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+}
+
+html {
+    background-color: black;
+    color: white;
+}
+
+header>img {
+    width: 100%;
+}
+
+header>h1 {
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    padding: 1rem;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article>* {
+    /* /* display: fle; */
+    /* margin: auto; */
+    width: 50%;
+    padding: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.InfoIguana {
+    display: flexbox;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.text {
+    display: flexbox;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 80%;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.photoIguana {
+    margin: auto;
+    width: 20vw;
+}
+
+.caracte {
+    background-color: #1E1A13;
+    height: 40vh;
+
+}
+
+.caracList {
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 75px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.imagenes {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    height: 25vh;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+
+    background-color: #1E1A13;
+}
